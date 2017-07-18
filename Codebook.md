@@ -1,16 +1,24 @@
-```Factors```
+# Codebook
 
-1. subjects
+## Subject and Activity
+
+1. subjects ```numbers 1 through 30 represent subject IDs```
+    type: factors
     30 levels:  1-30
-2. activities
-    6 levels:   1 = WALKING,
-                2 = WALKING_UPSTAIRS,
-                3 = WALKING_DOWNSTAIRS, 
-                4 = SITTING,
-                5 = STANDING,
-                6 = LAYING
+    
+2. activities ```6 kinds of activities recorded by the device``` 
+    type: factors
+    6 levels:   
+    -1 = WALKING
+    -2 = WALKING_UPSTAIRS
+    -3 = WALKING_DOWNSTAIRS
+    -4 = SITTING
+    -5 = STANDING
+    -6 = LAYING
 
-```Measurements```
+## Measurements
+
+```Each variable is the arithmetic average of a measurement for each subject's each type of activity. The measurements are all means or standard deviations by themselves, as indicated by the portion "Mean" or "Std" in the variable names.```
 
 tBodyAccMeanX  
 tBodyAccMeanY  
