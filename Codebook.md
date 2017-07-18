@@ -3,18 +3,18 @@
 ## Subject and Activity
 
 1. subjects ```numbers 1 through 30 represent subject IDs```
-    type: factors
-    30 levels:  1-30
+    <br /> type: factors
+    <br /> 30 levels:  1-30
     
 2. activities ```6 kinds of activities recorded by the device``` 
-    type: factors
-    6 levels:   
-    -1 = WALKING
-    -2 = WALKING_UPSTAIRS
-    -3 = WALKING_DOWNSTAIRS
-    -4 = SITTING
-    -5 = STANDING
-    -6 = LAYING
+    <br />type: factors
+    <br />6 levels:   
+    <br />1 = WALKING
+    <br />2 = WALKING_UPSTAIRS
+    <br />3 = WALKING_DOWNSTAIRS
+    <br />4 = SITTING
+    <br />5 = STANDING
+    <br />6 = LAYING
 
 ## Measurements
 
